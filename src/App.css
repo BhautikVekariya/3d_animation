@@ -95,9 +95,16 @@ section {
     }
 
     .right {
-      p {
+      .top-p {
+        font-size: 1.5rem;
+        /* background-color: red; */
         font-weight: 200;
-        line-height: 1.5;
+        line-height: 1.2;
+      }
+      .bottom-p{
+        margin-top: 1rem;
+        font-weight: 200;
+        opacity: 0.6;
       }
     }
   }
