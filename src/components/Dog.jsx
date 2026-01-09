@@ -10,7 +10,7 @@ import * as THREE from "three";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { texture } from "three/tsl";
+
 
 const Dog = () => {
   gsap.registerPlugin(useGSAP());
@@ -161,7 +161,7 @@ const Dog = () => {
         start: "top top",
         endTrigger: "#section-4",
         end: "bottom bottom",
-        markers: true,
+        markers: false,
         scrub: true,
       },
     });
@@ -313,7 +313,7 @@ const Dog = () => {
 
       <directionalLight position={[0, 5, 5]} intensity={2} />
 
-      {/* <OrbitControls enableDamping /> */}
+      <OrbitControls enableDamping />
     </>
   );
 };
