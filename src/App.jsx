@@ -7,13 +7,12 @@ function App() {
       <main>
         <div className="images">
           <img id="tomorrowland" src="/tomorrowland.png" alt="" />
-          <img id="navy-pier"  src="/navy-pier.png" alt="" />
+          <img id="navy-pier" src="/navy-pier.png" alt="" />
           <img id="msi-chicago" src="/msi-chicago.png" alt="" />
           <img id="phone" src="/phone.png" alt="" />
           <img id="opera" src="/opera.png" alt="" />
           <img id="kikk" src="/kikk.png" alt="" />
           <img id="kennedy" src="/kennedy.png" alt="" />
-
         </div>
         <Canvas
           id="canvas-elem"
@@ -115,7 +114,34 @@ function App() {
             </div>
           </div>
         </section>
-        <section id="section-3"></section>
+        <section id="section-3">
+          <div className="top">
+            <div className="left">
+              <h3>
+                We're crafting <br /> emotional <br /> experiences aimed <br />{" "}
+                at improving <br /> results
+              </h3>
+            </div>
+            <div className="right"></div>
+          </div>
+      
+        </section>
+        <section id="section-4">
+              <div className="bottom">
+            <div className="left"></div>
+            <div className="right">
+              <p>
+                Dogstudio is a design & technology firm working globally from
+                our offices based in Belgium and Chicago. <br /> Our strong
+                focus on producing high quality & emotional brandings, digital
+                products and experiences became a signature.
+              </p>
+              <p>
+                We’re passionate about moving people and solving problems for the likes of Microsoft, The Museum of Science And Industry Of Chicago, The Kennedy Center of Washington, Dragone, Quanta Magazine, and many more.
+                </p>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );

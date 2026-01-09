@@ -204,3 +204,76 @@ main:has(#section-2 .title[img-title="kikk"]:hover) .images #kikk {
 main:has(#section-2 .title[img-title="kennedy"]:hover) .images #kennedy {
   opacity: 1;
 }
+
+#section-3{
+  padding-top: 10rem;
+  padding-inline: 10rem;
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  min-height: initial;
+
+  .top, .bottom{
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+  }
+  .left, .right{
+    width: 50%;
+  }
+  .top , .left{
+    /* text-align: right; */
+    padding-left: 5rem;
+ 
+
+    h3{
+      font-size: 3rem;
+       font-weight: 100;
+    opacity: 0.6;
+  
+    }
+  }
+  .bottom , .right{
+    display:flex;
+    p{
+      opacity: 0.5;
+      font-weight: 200;
+      font-size: 0.6;
+
+    }
+  }
+}
+
+#section-4{
+  padding-inline: 10rem;
+  min-height: 50vh;
+    .top, .bottom{
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+  }
+  .left, .right{
+    width: 50%;
+  }
+  .top , .left{
+    /* text-align: right; */
+    padding-left: 5rem;
+ 
+
+    h3{
+      font-size: 3rem;
+       font-weight: 100;
+    opacity: 0.6;
+  
+    }
+  }
+  .bottom , .right{
+    display:flex;
+    p{
+      opacity: 0.5;
+      font-weight: 200;
+      font-size: 0.6;
+
+    }
+  }
+}
